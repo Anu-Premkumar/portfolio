@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+.header{
+    background-color: cornflowerblue;
+    padding:1rem;
+    color: cornsilk;
+}
+.header-title{
+    margin: 0;
+    text-align: center;
+}
+.section{
+    padding:1rem 2rem;
+}
+.section-accent{
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+.section-content{
+    padding-left: 1rem;
+}
+.section-skills{
+    margin: 0;
+    font-size:1.5rem;
+    font-style: italic;
+}
+.projects-section, .section-skills{
+    margin:0;
+    list-style: none;
+}
+.projects-section{
+    color: grey;
+}
+.project-list-item{
+    margin-bottom: 1rem;
+}
+.project-list-item:last-child{
+    margin-bottom: 0;
+}
+.contact-section{
+    margin-bottom: 1rem;
+}
+.input{
+    border: solid 1px grey;
+    border-radius: 0.5em;
+    padding:0.5em;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+}
+.input:focus{
+    border-color: cornflowerblue;
+    outline: none;
+    box-shadow: 0 0 7px 0 cornflowerblue;
+}
+.no-resize{
+    resize: none;
+}
+.send{
+    color:white;
+    background-color: cornflowerblue;
+    border-radius: 0.5em;
+    padding:0.5em;
+    outline: none;
+    cursor: pointer;
+}
+.send:focus,.send:hover{
+    background-color: dodgerblue;
+    box-shadow: dodgerblue;
+}
+.footer{
+    background-color: cornflowerblue;
+    padding:1rem;
+    color: cornsilk;
+    margin: 0;
+    text-align: center;
+}
